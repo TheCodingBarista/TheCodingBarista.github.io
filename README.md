@@ -1,3 +1,12 @@
+Hello World, I'm Mel! 
+
+If I were British, I'd get called cheeky at least once a day. By day, you might catch me at your local coffee shop making cappuccinos, but <strong>technology</strong>, <strong>education</strong>, and <strong>finance</strong> are the things that really get me going. I'm starting this site in September 2019, with a month of coding under my belt, so that I can chronicle my journey to becoming a software engineer and showcase the things that I've learned along the way in a tangible way. 
+
+I pursued psychology throughout my college years, but I have found myself wanting to make a difference on a larger scale through use of technology. Coding has given me a new lease on life, re-awakened my inquisitive nature, and provided stimulating challenge that I haven't felt in quite some time. I hope to one day marry my passions and be a resource to help educate others.
+
+
+
+
 Check out this small sample of my work:
 
 
