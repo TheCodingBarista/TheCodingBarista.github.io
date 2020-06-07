@@ -55,6 +55,11 @@ main > .tagline {
 	font-weight: 100;
 }
 
+main > .blurb {
+	font-size: 1em;
+	width: 50%;
+}
+
 .icons-social i {
 	padding: 10px;
 }
