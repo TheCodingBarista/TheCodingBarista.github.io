@@ -56,8 +56,8 @@ main > .tagline {
 }
 
 main > .blurb {
-	font-size: 1em;
-	width: 50%;
+	font-size: 12px;
+	width: 25%;
 }
 
 .icons-social i {
