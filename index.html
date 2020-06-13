@@ -30,14 +30,27 @@
   			font-family: Arial, Helvetica, sans-serif;
 		}
 
-		.flip-card {
+		.container {
+  			display: flex;
+  			flex-wrap: wrap;
+  			justify-content: space-between;
+		}
+
+		.item {
+  			width: 32%;
+  			padding-bottom: 32%; /* Same as width, sets height */
+  			margin-bottom: 2%; /* (100-32*3)/2 */
+  			position: relative;
+		}
+
+		/*.flip-card {
   			background-color: transparent;
   			width: 300px;
   			height: 300px;
   			perspective: 1000px;
 			margin: auto;
 		}
-
+		*/
 		.flip-card-inner {
   			position: relative;
   			width: 100%;
@@ -77,8 +90,9 @@
 			<p> Hello World, I'm Mel! </p>
 			<p> How do you take your Java? </p>
 		</div>
+
 		<div class="tagline">Flatiron Student | Starbucks Partner </div>
-		<br>
+		
 		<div class="icons-social">
 			<a target="_blank" href="https://github.com/TheCodingBarista"><i class="fab fa-github"></i></a>
 			<a target="_blank" href="https://twitter.com/NotYourAvgMel"><i class="fab fa-twitter"></i></a>
@@ -86,9 +100,23 @@
 			<a target="_blank" href="https://www.linkedin.com/in/thecodingbarista"><i class="fab fa-linkedin"></i></a>
 			<a target="_blank" href="https://www.freecodecamp.org/thecodingbarista"><i class="fab fa-free-code-camp"></i></a>
     	</div>
+		
 		<div class="card-header">Your New Favorite Dev, but don't take my word for it! Flip a card! </div>
 		<br>
-		<div class="flip-card">
+
+		<div class="container">
+			<div class="item"></div>
+			<div class="item"></div>
+			<div class="item"></div>
+			<div class="item"></div>
+			<div class="item"></div>
+			<div class="item"></div>
+			<div class="item"></div>
+			<div class="item"></div>
+			<div class="item"></div>
+		</div>
+
+		<div class="item">
   			<div class="flip-card-inner">
     				<div class="flip-card-front">
       					<img src="public/images/card-6-front.jpg" alt="Testimonial" style="width:300px;height:300px;">
