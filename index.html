@@ -28,26 +28,38 @@
 	<style>
 		body {
   			font-family: Arial, Helvetica, sans-serif;
+			display: flex;
+  			justify-content: center;
 		}
 
 		.container {
-  			display: flex;
-  			flex-wrap: wrap;
-  			justify-content: space-between;
+			display: grid;
+    		grid-template-rows: 200px 200px 200px;
+    		grid-template-columns: 200px 200px 200px;
 		}
 
-		.container > .flip-card {
+
+		.box {
+  			background: #444;
+  			border: 1px solid #555;
+  			display: flex;
+  			align-items: center;
+  			justify-content: center;
+  			color: #AAA;
+		}		
+
+		/* .flip-card {
   			width: 32%;
   			padding-bottom: 32%; /* Same as width, sets height */
-  			margin-bottom: 2%; /* (100-32*3)/2 */
-  			position: relative;
+  		/*	margin-bottom: 2%; /* (100-32*3)/2 */
+  		/*	position: relative;
 			
-  			background-color: transparent;
+  			/* background-color: transparent; */
   			/* width: 300px; */
   			/* height: 300px; */
   			/* perspective: 1000px; */
 			/* margin: auto; */
-		}
+		
 
 
 		.flip-card-inner {
@@ -104,15 +116,15 @@
 		<br>
 
 		<div class="container">
-			<div class="flip-card"></div>
-			<div class="flip-card"></div>
-			<div class="flip-card"></div>
-			<div class="flip-card"></div>
-			<div class="flip-card"></div>
-			<div class="flip-card"></div>
-			<div class="flip-card"></div>
-			<div class="flip-card"></div>
-			<div class="flip-card"></div>
+			<div class="box">200px x 200px</div>
+			<div class="box">200px x 200px</div>
+			<div class="box">200px x 200px</div>
+			<div class="box">200px x 200px</div>
+			<div class="box">200px x 200px</div>
+			<div class="box">200px x 200px</div>
+			<div class="box">200px x 200px</div>
+			<div class="box">200px x 200px</div>
+			<div class="box">200px x 200px</div>
 		</div>
 
 		<div class="flip-card">
