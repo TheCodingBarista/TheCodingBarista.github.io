@@ -4,7 +4,7 @@
 var btn=document.getElementById('chatBtn'),form=document.getElementById('chatForm'),msg=document.getElementById('chatMsg');
 if(!btn||!form)return;
 /* Set this to Mel's email address and the form opens a ready-to-send email for the visitor. */
-var CONTACT_EMAIL='melissa.holt21@gmail.com';
+var CONTACT_EMAIL='thecodingbarista21@gmail.com';
 var CARD='https://hihello.com/p/01c08fe4-c7a0-442a-ad95-c86bd676763f';
 btn.addEventListener('click',function(){form.hidden=!form.hidden;btn.setAttribute('aria-expanded',String(!form.hidden));if(!form.hidden){var f=form.querySelector('input');if(f)f.focus();}});
 function fallback(){msg.textContent="Sending isn't set up on this page yet. ";var a=document.createElement('a');a.href=CARD;a.target='_blank';a.rel='noopener';a.textContent='Reach Mel through her digital card.';msg.appendChild(a);}
